@@ -27,12 +27,6 @@
             font-family: 'Quicksand', sans-serif;
         }
 
-        .add-to-cart-button {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
         .product-detail {
             width: 360px;
             padding: 20px;
@@ -65,28 +59,6 @@
             border-radius: 0 0 20px 20px;
         }
 
-        .points {
-            display: flex;
-            justify-content: center;
-        }
-
-        .points > li {
-            background: var(--very-light-pink);
-            width: 8px;
-            height: 8px;
-            margin: 8px 6px;
-            border-radius: 50%;
-            list-style-type: none;
-            cursor: pointer;
-        }
-
-        .points > .active {
-            background: var(--hospital-green);
-        }
-
-        .points > li:hover {
-            background: var(--hospital-green);
-        }
 
         .product-info {
             margin: 24px 24px 0 24px;
@@ -125,6 +97,12 @@
             font-weight: bold;
             height: 50px;
         }
+        .add-to-cart-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
 
         @media (max-width: 640px ) {
             .product-detail {
@@ -141,11 +119,6 @@
             <img src="./icons/icon_close.png" alt="close">
         </div>
         <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="bike">
-            <div class="points">
-                <li class="active"></li>
-                <li></li>
-                <li></li>
-            </div>
         <div class="product-info">
             <p>$35,00</p>
             <p>Bike</p>
