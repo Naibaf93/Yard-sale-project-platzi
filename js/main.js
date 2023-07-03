@@ -205,4 +205,4 @@ function renderProducts(array){
     }    
 }
 
-renderProducts(productList);
+renderProducts(productList); 
