@@ -6,7 +6,9 @@ const menuCarIcon = document.querySelector('.navbar-shopping-cart');
 const productDetailCloseIcon = document.querySelector('.product-detail-close')
 const shoppingCartContainer = document.querySelector ('#shoppingCartContainer');
 const cardsContainer = document.querySelector ('.cards-container');
-const productDetailContainer = document.querySelector ('#productDetail'); 
+const productDetailContainer = document.querySelector ('#productDetail');
+
+const productList = [];
 
 menuEmail.addEventListener('click', toggleDesktopMenu);
 menuHamIcon.addEventListener('click', toggleMobileMenu);
@@ -206,7 +208,7 @@ function loadProductList(){
     });    
 }
 
-loadProductList();
+loadProductList()
 
 function renderProducts(array){
     for (product of array) {
